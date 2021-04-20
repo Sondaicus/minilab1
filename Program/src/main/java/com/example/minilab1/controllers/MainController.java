@@ -23,10 +23,7 @@ public class MainController {
     }
 
     @PostMapping(path = "/add")
-    public Kompis addNewKompisByPost(@RequestBody Kompis kompis) {
+    public Kompis addKompis(@RequestBody Kompis kompis) {
         return kompisRepository.save(kompis);
-
     }
-
-
 }

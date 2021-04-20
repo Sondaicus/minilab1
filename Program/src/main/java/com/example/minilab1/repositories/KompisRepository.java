@@ -7,5 +7,5 @@ import org.springframework.data.repository.CrudRepository;
 
 
 
-public interface KompisRepository extends CrudRepository<Kompis, Long> {
+public interface KompisRepository extends CrudRepository<Kompis, Integer> {
 }

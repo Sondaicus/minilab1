@@ -11,22 +11,22 @@ public class Kompis
 {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private Long id;
+	private int id;
 	
 	private String name;
 	private String email;
-	private Long telephoneNumber;
+	//private int telephoneNumber;
 	
 	
 	
 	public Kompis()
 	{}
 
-	public Long getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
@@ -46,11 +46,11 @@ public class Kompis
 		this.email = email;
 	}
 
-	public Long getTelephoneNumber() {
+/*	public int getTelephoneNumber() {
 		return telephoneNumber;
 	}
 
-	public void setTelephoneNumber(Long telephoneNumber) {
+	public void setTelephoneNumber(int telephoneNumber) {
 		this.telephoneNumber = telephoneNumber;
-	}
+	}*/
 }
